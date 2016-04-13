@@ -5,7 +5,8 @@ This is a ruby application I wrote to practice building classes with instance me
 `data.csv` contains a list of tracks, which is I used as my seed data.
 
 My code inputs that seed data, and outputs summary information about each album in the CSV.
-`models/album.rb` contains the following instance methods:
+
+`models/album.rb` contains a model with the following instance methods:
 
 * `id` - returns the ID of the album
 * `title` - returns the title of the album
