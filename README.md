@@ -1,13 +1,13 @@
 #Space-Jams
 
-This is a ruby application I wrote to practice building classes with instance methods.
+This is a ruby application I wrote to practice building classes with instance methods
 
-My seed data consists of a list of tracks in `data.csv`.
+`data.csv` contains a list of tracks, which is I used as my seed data.
 
-My code takes the data in that file, and outputs summary information about each album in the CSV.
+My code inputs that seed data, and outputs summary information about each album in the CSV.
 `models/album.rb` contains the following instance methods:
 
-* `id`   - returns the ID of the album
+* `id` - returns the ID of the album
 * `title` - returns the title of the album
 * `artists` - returns the name of the artist(s) on the album
 * `tracks` - returns an array of hashes representing each track on the album
